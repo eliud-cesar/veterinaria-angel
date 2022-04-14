@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    background: hsl(120, 80%, 10%);
+    padding: .5rem 2rem;
+}
+
+p {
+    color: hsl(120, 80%, 40%);
+}
+
+.nombre {
+    color: #0DBC79;
+}
+
+.codigo {
+    color: #993FBC;
+}
+
+.ruta {
+    color: #E5E510;
+}
+
+input {
+    border: none;
+    background: none;
+    border-left: 4px solid hsl(120, 80%, 30%);
+    display: block;
+    width: 100%;
+    padding-left: .5rem;
+    outline: none;
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: .5rem;
+}
+
+button {
+    background: hsl(120, 80%, 35%);
+    padding: .3rem 1rem;
+    border-radius: 8%;
+}
