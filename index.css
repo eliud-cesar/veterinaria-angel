@@ -4,8 +4,12 @@ body {
     padding: .5rem 2rem;
 }
 
-p {
+p, ul {
     color: hsl(120, 80%, 40%);
+}
+
+li {
+    margin: 4px 0;
 }
 
 .nombre {
@@ -37,4 +41,25 @@ button {
     background: hsl(120, 80%, 35%);
     padding: .3rem 1rem;
     border-radius: 8%;
+}
+
+.red {
+    color: hsl(0, 80%, 50%);
+}
+
+.inputs-de-formularios {
+    margin-top: 3rem;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+}
+
+.inputs-de-formularios label {
+    color: hsl(120, 80%, 35%);
+}
+
+.inputs-de-formularios input {
+    border: none;
+    border-bottom: 1px solid #E5E510;
 }
